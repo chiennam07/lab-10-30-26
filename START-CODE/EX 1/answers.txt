@@ -1,0 +1,29 @@
+Firstly we must divide the webpage into divisions:
+1. The navigation bar
+2. The Class' banner
+3. The two descending columns
+
+From inference the navigation bar has to advocate space for three groups:
+1. The Class' name
+2. A list (Stream, Classwork, People & Grade)
+3. The menu and profile picture
+It is safe to assume that three child div are needed to house them in a row.
+Moreover the whole position of the parent div (the navigation bar) must be fixed,
+so that its position stays no matter how far down a user scrolls.
+
+Up next is the Class' logo, which is requires a smaller div element to contain the Customize button
+and another to display the class' name in the opposite corner. As for the image, we can include it
+as the background image.
+
+Finally no Class webpage is done without displaying information.
+Our last div requires two subordinate div elements to contain the first
+and second columns. The first child element only needs to house three more div:
+1. A box div for the Google Meet link generator, with a smaller div to contain the button
+2. A box div for the Class code, with a smaller div to contain the code highlighted in blue
+3. A box div to display any upcoming class or due date, able to contain as many smaller boxes
+as there are classes/due dates. And if none, it should display a simple message, saying that
+there is nothing.
+
+As a whole, data is the most important element, since it could extend far below what tab can render.
+The two major div (the navigation bar and banner) don't need to grow or shrink, while the list of information
+below has to be able to grow especially, if the screen permits a longer tab. 
